@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:padding="14dp">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_contactus"
+        android:background="#87CEEB"
+        app:titleTextColor="#ffffff"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp"
+        android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Feed 1"
+        android:textSize="20dp"
+        android:id="@+id/home_feed1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Feed 2"
+        android:id="@+id/home_feed2"
+        android:textSize="20dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Feed 3"
+        android:id="@+id/home_feed3"
+        android:textSize="20dp"
+        android:layout_marginTop="4dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Report Feed 4"
+    android:textSize="20dp"
+    android:id="@+id/home_feed4"
+    android:layout_marginTop="4dp"/>
+        <ProgressBar
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/home_progressbar"
+            android:layout_gravity="center"/>
+</LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+
+
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+</LinearLayout>

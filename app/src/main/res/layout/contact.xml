@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:padding="14dp"
+    android:gravity="center">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_contactus"
+        android:background="#87CEEB"
+        app:titleTextColor="#ffffff"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you cannot reach your Nearest Medical officer or Hospitals to lodge an outbreak. We will help you at:"
+            android:id="@+id/name_sourabh"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone No:"
+            android:textStyle="bold"
+            android:layout_below="@+id/name_sourabh"
+            android:textSize="20sp"
+            android:id="@+id/email_sourabh1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1800-121-7653"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_sourabh1"
+            android:id="@+id/email_sourabh2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1800-123-7766"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_sourabh2"
+            android:id="@+id/email_sourabh3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1800-123-7776"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_sourabh3"
+            android:id="@+id/email_sourabh4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_sourabh4"
+            android:text="Email: help@rumorregister.in"
+            android:textSize="18dp"
+            android:id="@+id/email_sourabh5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_sourabh5"
+            android:layout_marginTop="6dp"
+            android:text="UNICEF OFFICE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/email_sourabh6"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_sourabh6"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Katora"
+    android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Civil lines"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Raipur, Chhattisagarh, India"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call: 1800 3000 5000"/>
+            <TextView
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email: Indiadonors@unichefindia.org"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

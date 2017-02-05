@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:padding="14dp">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_contactus"
+        android:background="#87CEEB"
+        app:titleTextColor="#ffffff"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp"
+        android:padding="12dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sourabh Modi"
+            android:id="@+id/name_sourabh"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sourabh.modi13@gmail.com"
+            android:layout_below="@+id/name_sourabh"
+            android:textSize="20sp"
+            android:id="@+id/email_sourabh"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91-9503987654"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_sourabh"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Awani Mishra"
+            android:id="@+id/name_awani"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="awani.mishra@gmail.com"
+            android:layout_below="@+id/name_awani"
+            android:textSize="20sp"
+            android:id="@+id/email_awani"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91-9503987654"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_awani"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arpit Jain"
+            android:id="@+id/name_arpit"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arpit.jain13@gmail.com"
+            android:layout_below="@+id/name_arpit"
+            android:textSize="20sp"
+            android:id="@+id/email_arpit"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91-9503987654"
+            android:textSize="20sp"
+            android:layout_below="@+id/email_arpit"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</LinearLayout>
